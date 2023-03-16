@@ -37,11 +37,17 @@ function evilTest() {
     evil(calcPi)
 }
 
+function wwwTest() {
+    let url = "https://cors.conchbrain.club/?https://en.wikipedia.org/wiki/Cat"
+    fetch(url)
+}
+
 function main() {
 time(calcPi)
 time(log)
 time(spamLog)
 time(evilTest)
+time(wwwTest)
 console.log(`JS SCORE: ${totalTime} seconds`)
 document.body.innerHTML = `<h1>JS SCORE:</h1></br></h2>${totalTime} seconds</h2>`
 }
