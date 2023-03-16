@@ -1,2 +1,2 @@
-# nodebench
+# skriptbench
 foss benchmark
