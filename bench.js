@@ -40,6 +40,10 @@ function evilTest() {
 function wwwTest() {
     let url = "https://cors.conchbrain.club/?https://en.wikipedia.org/wiki/Cat"
     fetch(url)
+    url = "https://cors.conchbrain.club/?https://en.wikipedia.org/wiki/Dog"
+    fetch(url)
+    url = "https://cors.conchbrain.club/?https://kernel.org"
+    fetch(url)
 }
 
 function main() {
